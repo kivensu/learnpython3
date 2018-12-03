@@ -7,14 +7,16 @@ def show_magicians(magicians):
 
 
 def make_great(magicians):
-    poped_magican = magicians.pop()
     new_magician = []
-    new_magicians = new_magician.append("The Great " + poped_magican)
-    print(new_magicians)
+    while True:
+        poped_magican = magicians.pop()
+        new_magician.append("The Great " + poped_magican)
+        if len(magicians) == 0:
+            break
+    return new_magician
 
 
-while True:
-	poped_magican = magicians.pop()
-    print(poped_magican)
-    if len(magicians) == 0:
-    	break
+show_magicians(magicians[:])
+magic = make_great(magicians[:])
+print(magic)
+print(magicians)

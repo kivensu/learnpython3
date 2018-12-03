@@ -1,5 +1,7 @@
+# 接收任意数量的关键字实参
 def build_profile(first, last, **user_info):
     """create a dict include user_info"""
+    # **user_info创建了一个空字典
     profile = {}
     profile['first_name'] = first
     profile['last_name'] = last
@@ -26,24 +28,3 @@ def make_car(maker, model, **car_info):
 
 my_car_info = make_car('audi', 'A4', color='red')
 print(my_car_info)
-
-"""
-class car():
-    #car test
-
-    def __init__(self, maker, model):
-        self.maker = maker
-        self.model = model
-
-    def make_car(self, maker, model, ** car_info):
-        car_infos = {}
-        car_infos['maker'] = self.maker
-        car_infos['model'] = self.model
-        for key, value in car_infos.items():
-            car_infos[key] = value
-        return car_infos
-
-
-my_car = car.make_car('A', 'audi', 'A4', color='red')
-print(my_car)
-"""
