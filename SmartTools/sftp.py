@@ -163,7 +163,8 @@ class LinuxInstance(object):
 
 if __name__ == '__main__':
     get_or_put = str(input("Do you want to upload or download files?(upload or download): "))
-    host_lists = [['192.168.103.155','root','huazhen@123']]
+    # 密码略去
+    host_lists = [['192.168.103.155','root','']]
     if get_or_put == 'download':
         judge_single_file = str(input("Do you want to download single file or some files?(single or some): "))
         remote_path = str(input("Please input your remote path: "))
