@@ -1,4 +1,4 @@
-# 向函数传递列表，效率很高！
+# passes a list to a function
 def greet_users(names):
     """greet every users"""
     for name in names:

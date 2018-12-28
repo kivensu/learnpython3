@@ -1,8 +1,8 @@
-# 元组
+# tuple
 dimentions = (200, 5)
 print(dimentions[0])
 print(dimentions[1])
 
-# 遍历元组中的值
+# traverse tuple
 for dimention in dimentions:
     print(dimention)

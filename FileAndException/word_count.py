@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: kivensu
-# @Date:   2018-11-21 14:53:10
-# @Last Modified by:   kivensu
-# @Last Modified time: 2018-11-21 15:03:29
-# @Email: 749243884@qq.com
-
-
 def count_words(filename):
     try:
         with open(filename) as file_object:

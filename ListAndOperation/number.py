@@ -1,12 +1,12 @@
-# 使用range打印一些数字
+# use range print some number
 # for value in range(1, 11):
 #    print(value)
 
-# 使用range创建数字列表
+# use range create even number list
 #numbers = list(range(1, 6))
 # print(numbers)
 
-# 使用range创建偶数列表
+# use range create list
 # even_numbers
 #even_numbers = list(range(0, 11, 2))
 # print(even_numbers)
@@ -24,7 +24,7 @@ print(squares)
 '''
 
 # digit
-# 简单的统计
+# simple staticstics
 '''
 digits = [1, 123, 1, 4, 13, 1, 42, 2112]
 print(min(digits))
@@ -32,7 +32,7 @@ print(max(digits))
 print(sum(digits))
 '''
 
-# 列表解析
+# list analysis
 #squares = [value ** 2 for value in range(0, 101, 2)]
 # print(sum(squares))
 
@@ -62,7 +62,7 @@ for x in list02:
         print(x)
 '''
 
-# 立方的列表解析
+# cube list analysis
 '''cubes list
 cubes = [value ** 3 for value in range(1, 11)]
 for x in cubes:

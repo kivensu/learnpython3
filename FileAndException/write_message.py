@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: kivensu
-# @Date:   2018-11-21 14:06:34
-# @Last Modified by:   kivensu
-# @Last Modified time: 2018-11-21 14:11:58
-# @Email: 749243884@qq.com
 filename = 'programming.txt'
 with open(filename, 'w') as file_object:
     file_object.write("I love programming!\n")

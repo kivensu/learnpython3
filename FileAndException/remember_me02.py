@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: kivensu
-# @Date:   2018-11-21 15:35:07
-# @Last Modified by:   kivensu
-# @Last Modified time: 2018-11-21 15:45:56
-# @Email: 749243884@qq.com
 import json
 
 

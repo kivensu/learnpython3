@@ -1,5 +1,5 @@
 '''
-# 函数的返回值
+# the return value of a function
 def get_formatted_name(first_name, last_name):
     """return full name"""
     full_name = first_name + ' ' + last_name
@@ -9,7 +9,7 @@ def get_formatted_name(first_name, last_name):
 formatted_name = get_formatted_name('tom', 'wang')
 print("\nHello, " + formatted_name + "!")
 '''
-# 让实参变成可选的
+# make the argument optional
 def get_formatted_name(first_name, last_name, middle_name=''):
     if middle_name:
         full_name = first_name + ' ' + middle_name + ' ' + last_name

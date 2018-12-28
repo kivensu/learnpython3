@@ -1,4 +1,4 @@
-# 列表的切片操作，根据索引
+# The list is sliced according to the index
 players = ['lisa', 'jordan', 'tom', 'mike', 'eli']
 # print(players[0:3])
 # print(players[1:4])

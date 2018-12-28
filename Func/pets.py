@@ -1,4 +1,4 @@
-#  位置参数
+# positional arguments
 def describe_pet(animal_type, pet_name, animal_age=13):
     """display animal info"""
     print("\nI love a " + animal_type + ".")

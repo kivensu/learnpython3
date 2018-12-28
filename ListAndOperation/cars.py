@@ -1,14 +1,14 @@
 cars = ['bmw', 'benz', 'audi', 'toyota', 'subaru']
 
-# sort对列表进行永久排序
+# permanently sort the list
 # cars.sort()
 # print(cars)
 
-# 永久列表反排
+# lists are permanently inverted sorted
 # cars.sort(reverse=True)
 # print(cars)
 
-# sorted对列表进行临时排序
+# sorted list temporary sort
 #newcars = sorted(cars)
 
 newcars = []

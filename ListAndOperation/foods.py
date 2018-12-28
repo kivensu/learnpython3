@@ -1,4 +1,4 @@
-# 复制列表
+# copy list
 my_foods = ['pizza', 'carrot', 'corn', 'tomato', 'potato']
 friend_foods = my_foods[:]
 

@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: kivensu
-# @Date:   2018-11-21 14:31:25
-# @Last Modified by:   kivensu
-# @Last Modified time: 2018-11-21 14:49:00
-# @Email: 749243884@qq.com
 """
 try:
 	print(5 / 0)
